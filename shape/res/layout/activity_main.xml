@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999"
+    tools:context="com.example.shape.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/oval"
+            android:gravity="center"
+            android:text="滕王\n阁序"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/corners1"
+            android:gravity="center"
+            android:text="豫章故郡，洪都新府。"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/corners2"
+            android:gravity="center"
+            android:text="星分翼轸，地接衡庐。"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/corners3"
+            android:gravity="center"
+            android:text="襟三江而带五湖，"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/gradient"
+            android:gravity="center"
+            android:text="控蛮荆而引瓯越。"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/stroke"
+            android:gravity="center"
+            android:text="物华天宝，龙光射牛斗之墟。"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/stroke_delete"
+            android:gravity="center"
+            android:text="人杰地灵，徐孺下陈蕃之榻。"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/solid"
+            android:gravity="center"
+            android:text="雄州雾列，俊采星驰。"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/stroke2" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/ring"
+            android:gravity="center"
+            android:text="台隍枕夷夏之交"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/gradient2"
+            android:gravity="center"
+            android:text="宾主尽东南之美"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/gradient3"
+            android:gravity="center"
+            android:text="都督阎公之雅望"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</ScrollView>
